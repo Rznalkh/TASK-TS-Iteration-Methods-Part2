@@ -22,7 +22,7 @@ const transactions: Transaction[] = [
 function filterIncomeTransactions(transactions: Transaction[]): Transaction[] {
   // write your code here...
 
-  return []; // replace empty array with what you see is fit
+  return transactions.filter(i => i[0] == "income"); // replace empty array with what you see is fit
 }
 
 // `filterExpenseTransactions` function that:
